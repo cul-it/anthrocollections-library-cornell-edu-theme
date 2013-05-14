@@ -44,7 +44,8 @@ header { background: white; }
 
 /* Main content on sub pages */
 /*------------------------------*/
-.main-content { 
+.main-content {
+	background: white;
 	.container { 
 		padding-top: 100px;
 		padding-bottom: 60px; }
@@ -69,6 +70,14 @@ header { background: white; }
 .page-node-3 {
 	.main-content {
 		background: white url("../images/background/3-crop.jpg") no-repeat top left;
+		background-position: center 0;
+	}
+}
+
+/* credits */
+.page-node-4 {
+	.main-content {
+		background: white url("../images/background/1-crop.jpg") no-repeat top left;
 		background-position: center 0;
 	}
 }
