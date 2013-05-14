@@ -1965,8 +1965,8 @@ h2 {
       color: #932129; }
     .navbar .nav li:first-child a {
       border: none; }
-    .navbar .nav li.active a,
-    .navbar .nav li.active a:hover {
+    .navbar .nav li.active-trail a,
+    .navbar .nav li.active-trail a:hover {
       color: #15a383;
       background: inherit;
       -webkit-box-shadow: none;
