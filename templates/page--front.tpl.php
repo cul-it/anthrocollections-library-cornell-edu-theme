@@ -107,9 +107,7 @@
         </div>
         <div class="span6">
           <div class="nav-collapse collapse">
-            <div class="nav">
-              <?php print render($page['navigation']); ?>
-            </div>
+            <?php print render($page['navigation']); ?>
           </div>
         </div>
       </div>
