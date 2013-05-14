@@ -1,0 +1,15 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	.navbar {
+		.container { width: 940px; }
+		.nav { margin-top: 33px; }
+		.brand {
+			.site-title { font-size: 1.5em; }
+		}
+	}
+	#supersized { height: 950px !important ; }
+}

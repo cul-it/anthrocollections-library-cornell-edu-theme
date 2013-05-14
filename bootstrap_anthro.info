@@ -1,0 +1,20 @@
+name = Anthropology Collections theme
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+; Regions
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar]  		= 'Sidebar'
+regions[footer_first]   = 'Footer primary'
+regions[footer_second]  = 'Footer secondary'
+
+; Stylesheets
+stylesheets[all][] = css/style.css
+
+; Scripts
+scripts[] = js/respond.min.js

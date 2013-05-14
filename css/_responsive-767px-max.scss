@@ -1,0 +1,65 @@
+//
+// Responsive: Landscape phone to desktop/tablet
+// --------------------------------------------------
+
+@media (max-width: 767px) {
+	body { 
+		padding: 0;
+		margin: 0;
+		font-size: 90%; }
+	.navbar {
+		padding-bottom: 15px;
+		.container { 
+			width: auto;
+			padding: 0 10px; }
+		.btn-navbar {
+			background: $teal;
+			margin-top: 30px;
+		}
+		.btn-navbar:hover { background: $teal; }
+		.nav {
+			float: none;
+			padding: 5px 0;
+			li {
+				a,
+				a:hover {
+					background-image: none;
+					border: 0; }
+				a { 
+					color: white;
+					font-weight: normal; }
+			}
+			li.active {
+				a,
+				a:hover { 
+					background: $darkTeal;
+					color: white; }
+			}
+		}
+	}
+	.container { padding: 0 10px; }
+	.nav-collapse {
+		background: $teal;
+		margin-top: 10px;
+		.nav > li > a:hover { 
+			font-weight: normal;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0; }
+		.nav { margin: 0; }
+		.nav > li > a { margin-bottom: 0; }
+	}
+	footer {
+		.container { padding: 20px 10px;}
+	}
+	.sidebar-nav {
+		margin-bottom: 1em;
+		overflow: hidden;
+		li {
+			float: left;
+			margin-right: .25em;
+		}
+		a { padding: 10px; }
+	}
+}
+
