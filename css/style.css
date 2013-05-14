@@ -1903,7 +1903,7 @@ a:active {
 
 /* Typography */
 /*------------------------------*/
-h1 {
+h2 {
   color: white;
   background: #15a383;
   padding: 10px 20px;
@@ -1911,16 +1911,6 @@ h1 {
   display: inline-block;
   font-weight: 300;
   font-size: 1.875em; }
-
-h2 {
-  color: white;
-  background: #e14f3c;
-  padding: 5px 20px;
-  font-size: 1.625em;
-  font-weight: 200;
-  margin-bottom: 1em;
-  text-align: left;
-  display: inline-block; }
 
 .main-content p {
   font-size: 1.125em;
@@ -1995,7 +1985,7 @@ h2 {
 
 /* Hero */
 /*------------------------------*/
-.hero h1 {
+.hero h2 {
   margin: -40px 0 40px -60px;
   padding: 20px 40px;
   background: #932129; }

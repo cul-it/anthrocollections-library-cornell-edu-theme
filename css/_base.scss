@@ -19,7 +19,7 @@ a:active { color: $darkTeal; }
 /* Typography */
 /*------------------------------*/
 
-h1 {
+h2 {
 	color: white;
 	background: $teal;
 	padding: 10px 20px;
@@ -27,16 +27,6 @@ h1 {
 	display: inline-block;
 	font-weight: 300;
 	font-size: 1.875em; }
-
-h2 {
-	color: white;
-	background: $orange;
-	padding: 5px 20px ;
-	font-size: 1.625em;
-	font-weight: 200;
-	margin-bottom: 1em;
-	text-align: left;
-	display: inline-block; }
 
 .main-content {
 	p { 
