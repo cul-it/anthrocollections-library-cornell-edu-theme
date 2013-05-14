@@ -1965,21 +1965,21 @@ h2 {
 
 /* Sidebar navigation */
 /*------------------------------*/
-.sidebar-nav {
+.sidebar .nav {
   list-style: none;
   margin-left: 0; }
-  .sidebar-nav li {
+  .sidebar .nav li {
     margin-bottom: .25em; }
-  .sidebar-nav a {
+  .sidebar .nav a {
     display: inline-block;
     background: #efebeb;
     color: #666;
     padding: 15px 25px 15px 15px; }
-  .sidebar-nav a:hover {
+  .sidebar .nav a:hover {
     background: #cfcfcf;
     text-decoration: none; }
-  .sidebar-nav li.active a,
-  .sidebar-nav li.active a:hover {
+  .sidebar .nav li.active a,
+  .sidebar .nav li.active a:hover {
     color: white;
     background: #15594a; }
 

@@ -49,22 +49,24 @@
 
 /* Sidebar navigation */
 /*------------------------------*/
-.sidebar-nav {
-	list-style: none;
-	margin-left: 0;
-	li { margin-bottom: .25em; }
-	a {
-		display: inline-block;
-		background: $paleGray;
-		color: #666;
-		padding: 15px 25px 15px 15px; }
-	a:hover { 
-		background: $lightGray;
-		text-decoration: none; }
-	li.active {
-		a,
+.sidebar {
+	.nav {
+		list-style: none;
+		margin-left: 0;
+		li { margin-bottom: .25em; }
+		a {
+			display: inline-block;
+			background: $paleGray;
+			color: #666;
+			padding: 15px 25px 15px 15px; }
 		a:hover { 
-			color: white;
-			background: $darkTeal; }
+			background: $lightGray;
+			text-decoration: none; }
+		li.active {
+			a,
+			a:hover { 
+				color: white;
+				background: $darkTeal; }
+		}
 	}
 }
