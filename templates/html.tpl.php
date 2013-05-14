@@ -94,6 +94,9 @@
   <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="../assets/ico/favicon.png">
   <?php print $scripts; ?>
+  <?php if ($is_front): ?>
+    <link rel="stylesheet" href="/sites/all/themes/bootstrap_anthro/css/supersized.css" type="text/css" media="screen" />
+  <?php endif; ?>
   
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
