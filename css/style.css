@@ -1851,8 +1851,6 @@ ul.icons {
     border: none;
     text-indent: -1000em;
     text-decoration: none; }
-  .cu-logo a:hover {
-    text-decoration: none; }
   .cu-logo a#insignia-link {
     float: left;
     width: 68px;
@@ -1882,7 +1880,8 @@ ul.icons {
     font-size: 0.6875em;
     padding: 5px 15px; }
   .search-links a:hover {
-    background: #990f26; }
+    background: #990f26;
+    text-decoration: none; }
 
 body {
   font-size: 100%;
