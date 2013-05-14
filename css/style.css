@@ -2024,12 +2024,19 @@ header {
 
 /* Main content on sub pages */
 /*------------------------------*/
-.main-content {
+.main-content .container {
+  padding-top: 100px;
+  padding-bottom: 60px; }
+
+/* about pages */
+.page-node-1 .main-content {
   background: white url("../images/background/2-crop.jpg") no-repeat top left;
   background-position: center 0; }
-  .main-content .container {
-    padding-top: 100px;
-    padding-bottom: 60px; }
+
+/* digitization page */
+.page-node-2 .main-content {
+  background: white url("../images/background/4-crop.jpg") no-repeat top left;
+  background-position: center 0; }
 
 /* Sidebar on sub pages */
 /*------------------------------*/
