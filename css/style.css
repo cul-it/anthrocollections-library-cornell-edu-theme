@@ -2028,14 +2028,19 @@ header {
   padding-top: 100px;
   padding-bottom: 60px; }
 
-/* about pages */
+/* about */
 .page-node-1 .main-content {
   background: white url("../images/background/2-crop.jpg") no-repeat top left;
   background-position: center 0; }
 
-/* digitization page */
+/* digitization */
 .page-node-2 .main-content {
   background: white url("../images/background/4-crop.jpg") no-repeat top left;
+  background-position: center 0; }
+
+/* contact */
+.page-node-3 .main-content {
+  background: white url("../images/background/3-crop.jpg") no-repeat top left;
   background-position: center 0; }
 
 /* Sidebar on sub pages */
