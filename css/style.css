@@ -1881,7 +1881,8 @@ ul.icons {
     padding: 5px 15px; }
   .search-links a:hover {
     background: #990f26;
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
 
 body {
   font-size: 100%;
