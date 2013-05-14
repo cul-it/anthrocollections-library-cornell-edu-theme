@@ -1851,6 +1851,8 @@ ul.icons {
     border: none;
     text-indent: -1000em;
     text-decoration: none; }
+  .cu-logo a:hover {
+    text-decoration: none; }
   .cu-logo a#insignia-link {
     float: left;
     width: 68px;
