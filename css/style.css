@@ -1914,7 +1914,7 @@ h2 {
   font-weight: 300;
   font-size: 1.875em; }
 
-.main-content p {
+.main-content p, .main-content li {
   font-size: 1.125em;
   line-height: 1.4em; }
 
