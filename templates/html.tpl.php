@@ -115,10 +115,7 @@
                             {image : '/sites/all/themes/bootstrap_anthro/images/background/1.jpg'},
                             {image : '/sites/all/themes/bootstrap_anthro/images/background/2.jpg'},  
                             {image : '/sites/all/themes/bootstrap_anthro/images/background/3.jpg'},
-                            {image : '/sites/all/themes/bootstrap_anthro/images/background/4.jpg'},
-                            {image : '/sites/all/themes/bootstrap_anthro/images/background/5.jpg'},
-                            {image : '/sites/all/themes/bootstrap_anthro/images/background/6.jpg'},
-                            {image : '/sites/all/themes/bootstrap_anthro/images/background/7.jpg'}
+                            {image : '/sites/all/themes/bootstrap_anthro/images/background/4.jpg'}
                         ]
           
         });
