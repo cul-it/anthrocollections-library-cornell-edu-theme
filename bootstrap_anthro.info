@@ -17,4 +17,4 @@ regions[footer_second]  = 'Footer secondary'
 stylesheets[all][] = css/style.css
 
 ; Scripts
-scripts[] = js/respond.min.js
+; scripts[] = js/respond.min.js
