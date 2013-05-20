@@ -2219,3 +2219,5 @@ footer {
       line-height: 1.2em;
       padding: 20px;
       margin-left: -20px; } }
+.ie8 .navbar .brand .site-title {
+  font-size: 1.5em; }
