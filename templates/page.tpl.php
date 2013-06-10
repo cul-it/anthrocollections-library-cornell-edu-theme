@@ -115,7 +115,12 @@
   </div>
 </header>
 
-<section class="main-content">
+
+<?php if (!empty($section_title)): ?>
+  <section class="main-content main-content-<?php print $section_title; ?>">
+<?php else: ?>
+  <section class="main-content">
+<?php endif; ?>
   <div class="container">
     <?php
         // Render the sidebars to see if there's anything in them.
