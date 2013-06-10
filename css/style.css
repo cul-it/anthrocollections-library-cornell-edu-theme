@@ -2036,8 +2036,20 @@ header {
   background-position: center 0; }
 
 /* digitization */
+.main-content-digitization {
+  background: white url("../images/background/4-crop.jpg") no-repeat top left;
+  background-position: center 0; }
+
 /* contact */
+.main-content-contact {
+  background: white url("../images/background/3-crop.jpg") no-repeat top left;
+  background-position: center 0; }
+
 /* credits */
+.main-content-credits {
+  background: white url("../images/background/1.crop.jpg") no-repeat top left;
+  background-position: center 0; }
+
 /* Sidebar on sub pages */
 /*------------------------------*/
 /* Footer */
