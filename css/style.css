@@ -1991,7 +1991,12 @@ h2 {
   background: #efebeb;
   color: #666;
   padding: 15px 25px 15px 15px;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  color: #15a383;
+  text-decoration: none; }
+
+.nav-header:hover {
+  text-decoration: none; }
 
 /* Hero */
 /*------------------------------*/
