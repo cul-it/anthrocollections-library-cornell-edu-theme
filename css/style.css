@@ -1926,6 +1926,11 @@ img.pull-right {
 img.pull-left {
   margin: 0 20px 20px 0; }
 
+p.pull-right {
+  margin: 0 0 20px 20px; }
+  p.pull-right img {
+    margin-bottom: 20px; }
+
 /* Miscellaneous */
 /*------------------------------*/
 .primary-button a {

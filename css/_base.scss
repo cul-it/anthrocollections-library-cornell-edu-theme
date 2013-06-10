@@ -39,6 +39,10 @@ h2 {
 
 img.pull-right { margin: 0 0 20px 20px; }
 img.pull-left { margin: 0 20px 20px 0; }
+p.pull-right { 
+	margin: 0 0 20px 20px;
+	img { margin-bottom: 20px; }
+}
 
 /* Miscellaneous */
 /*------------------------------*/
