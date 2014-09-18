@@ -1904,12 +1904,23 @@ a:active {
 /*------------------------------*/
 h2 {
   margin: 0 0 1em;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 2em; }
+
+h3 {
+  font-weight: normal; }
+
+h4 {
+  font-weight: normal;
+  font-size: 1.4em; }
 
 .main-content p, .main-content li {
   font-size: 1.125em;
   line-height: 1.4em; }
+.main-content p {
+  margin-bottom: 1em; }
+.main-content li {
+  margin-bottom: .5em; }
 
 /* Images */
 /*------------------------------*/
