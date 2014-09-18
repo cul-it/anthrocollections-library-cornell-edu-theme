@@ -155,5 +155,5 @@
   jQuery(document).ready(function() { 
   var randomImages = ['1','2','3','4']; 
   var rndNum = Math.floor(Math.random() * randomImages.length); 
-  jQuery(".hero").css({ background: "url('/sites/all/themes/bootstrap_anthro/images/background/" + randomImages[rndNum] + "-crop.jpg') no-repeat" }); });
+  jQuery(".hero").css({ background: "url('/sites/all/themes/bootstrap_anthro/images/background/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>
