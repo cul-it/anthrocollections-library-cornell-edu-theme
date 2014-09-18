@@ -23,14 +23,10 @@ a:active { color: $darkTeal; }
 /*------------------------------*/
 
 h2 {
-	color: white;
-	background: $teal;
-	padding: 10px 20px;
 	margin: 0 0 1.5em;
-	display: inline-block;
 	font-weight: 300;
-	font-size: 1.875em; }
-
+	font-size: 1.875em;
+}
 .main-content {
 	p, li { 
 		font-size: 1.125em;

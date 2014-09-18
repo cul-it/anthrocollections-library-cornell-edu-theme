@@ -1903,11 +1903,7 @@ a:active {
 /* Typography */
 /*------------------------------*/
 h2 {
-  color: white;
-  background: #15a383;
-  padding: 10px 20px;
   margin: 0 0 1.5em;
-  display: inline-block;
   font-weight: 300;
   font-size: 1.875em; }
 
