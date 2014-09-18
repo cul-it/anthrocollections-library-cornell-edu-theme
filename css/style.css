@@ -1903,9 +1903,9 @@ a:active {
 /* Typography */
 /*------------------------------*/
 h2 {
-  margin: 0 0 1.5em;
+  margin: 0 0 1em;
   font-weight: 300;
-  font-size: 1.875em; }
+  font-size: 2em; }
 
 .main-content p, .main-content li {
   font-size: 1.125em;
