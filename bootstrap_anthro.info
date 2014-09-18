@@ -10,8 +10,7 @@ regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar]  		= 'Sidebar'
-regions[footer_first]   = 'Footer primary'
-regions[footer_second]  = 'Footer secondary'
+regions[footer]   		= 'Footer'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css

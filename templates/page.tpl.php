@@ -179,14 +179,7 @@
 
 <footer>
   <div class="container">
-    <div class="row">
-      <div class="span6">
-        <?php print render($page['footer_first']); ?>
-      </div>
-      <div class="span6 text-right">
-        <?php print render($page['footer_second']); ?>
-      </div>
-    </div>
+    <?php print render($page['footer']); ?>
   </div>
 </footer>
 
