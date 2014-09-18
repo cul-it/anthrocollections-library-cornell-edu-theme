@@ -4,7 +4,10 @@ body {
 	font-weight: 400;
 	color: $textColorDark;
 	background: $darkBrown;
+	padding-top: 0; // bootstrap override 
 }
+// Drupal override
+html body.admin-menu { margin-top: 0; }
 
 /* Links */
 /*------------------------------*/
