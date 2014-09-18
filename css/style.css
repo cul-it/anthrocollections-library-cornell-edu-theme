@@ -1886,7 +1886,7 @@ body {
   padding-top: 0; }
 
 html body.admin-menu {
-  margin-top: 0 !important; }
+  margin-top: 20px !important; }
 
 /* Links */
 /*------------------------------*/
