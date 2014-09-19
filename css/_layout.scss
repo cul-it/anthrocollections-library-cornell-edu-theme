@@ -95,9 +95,9 @@ footer {
 		li.active { 
 			color: white;
 			a { color: white; }
-			a:hover {
-				background: inherit;
-			}
+		}
+		a:hover {
+			background: inherit;
 		}
 	}
 	a { color: $footerLink; }
