@@ -138,9 +138,6 @@
     <?php if ($sidebar): ?>
 
     <div class="row">
-      <div class="span4 sidebar">
-        <?php print $sidebar; ?>
-      </div>
       <div class="span8">
         <?php print render($page['highlighted']); ?>
         <!--<?php print $breadcrumb; ?>-->
@@ -154,6 +151,9 @@
           unset($page['content']['system_main']['default_message']);
         }?>-->
         <?php print render($page['content']); ?>
+      </div>
+      <div class="span4 sidebar">
+        <?php print $sidebar; ?>
       </div>
 
       <!--if there isn't a sidebar, then create one column layout-->
