@@ -2070,7 +2070,8 @@ header {
 .main-content {
   background: white; }
   .main-content .container {
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+    padding-top: 100px; }
 
 .page-title {
   -webkit-background-size: cover !important;
