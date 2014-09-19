@@ -2104,8 +2104,8 @@ footer {
       color: white; }
       footer ul.nav li.active a {
         color: white; }
-      footer ul.nav li.active .divider {
-        color: white; }
+      footer ul.nav li.active a:hover {
+        background: inherit; }
   footer a {
     color: #948c88; }
   footer a:hover {
