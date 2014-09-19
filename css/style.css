@@ -2072,6 +2072,12 @@ header {
   .main-content .container {
     padding-bottom: 60px; }
 
+.page-title {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
+
 /* about */
 .page-title-about {
   background: white url("../images/background/2-crop.jpg") no-repeat top left;
