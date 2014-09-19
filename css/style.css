@@ -2124,7 +2124,7 @@ footer {
     font-size: .875em; }
 
 .image-credit {
-  margin: 0 0 1em; }
+  margin-bottom: 2em; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   .navbar .container {
