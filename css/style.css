@@ -2071,23 +2071,23 @@ header {
     padding-bottom: 60px; }
 
 /* about */
-.main-content-about {
+.page-title-about {
   background: white url("../images/background/2-crop.jpg") no-repeat top left;
   background-position: center 0; }
 
 /* digitization */
-.main-content-digitization {
+.page-title-digitization {
   background: white url("../images/background/4-crop.jpg") no-repeat top left;
   background-position: center 0; }
 
 /* contact */
-.main-content-contact {
+.page-title-contact {
   background: white url("../images/background/3-crop.jpg") no-repeat top left;
   background-position: center 0; }
 
 /* credits */
-.main-content-credits,
-.main-content-image-credits {
+.page-title-credits,
+.page-title-image-credits {
   background: white url("../images/background/1-crop.jpg") no-repeat top left;
   background-position: center 0; }
 
