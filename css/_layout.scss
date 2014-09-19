@@ -4,10 +4,10 @@
 .hero { 
 	// background: url("../images/background/1.jpg") no-repeat scroll top left;
 	// background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
 	h2 { 
 		margin: -40px 0 40px -60px;
 		padding: 20px 40px;
