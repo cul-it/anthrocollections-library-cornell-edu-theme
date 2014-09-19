@@ -2086,7 +2086,8 @@ header {
   background-position: center 0; }
 
 /* credits */
-.main-content-credits {
+.main-content-credits,
+.main-content-image-credits {
   background: white url("../images/background/1-crop.jpg") no-repeat top left;
   background-position: center 0; }
 
