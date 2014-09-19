@@ -115,12 +115,19 @@
   </div>
 </header>
 
-
 <?php if (!empty($section_title)): ?>
-  <section class="main-content main-content-<?php print $section_title; ?>">
+  <section class="page-title page-title-<?php print $section_title; ?>">
 <?php else: ?>
-  <section class="main-content">
+  <section class="page-title">
 <?php endif; ?>
+    <div class="container">
+      <?php if ($title): ?>
+        <h2><?php print $title; ?></h2>
+      <?php endif; ?>    
+    </div>
+  </section>
+
+<section class="main-content">
   <div class="container">
     <?php
         // Render the sidebars to see if there's anything in them.
@@ -146,9 +153,6 @@
         <!--<?php if(drupal_is_front_page()) {
           unset($page['content']['system_main']['default_message']);
         }?>-->
-        <?php if ($title): ?>
-          <h2><?php print $title; ?></h2>
-        <?php endif; ?>
         <?php print render($page['content']); ?>
       </div>
 
@@ -166,9 +170,6 @@
         <!--<?php if(drupal_is_front_page()) {
           unset($page['content']['system_main']['default_message']);
         }?>-->
-        <?php if ($title): ?>
-          <h2><?php print $title; ?></h2>
-        <?php endif; ?>
         <?php print render($page['content']); ?>
 
       <?php endif; ?>
