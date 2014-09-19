@@ -2022,10 +2022,15 @@ p.pull-right {
 
 /* Hero */
 /*------------------------------*/
-.hero h2 {
-  margin: -40px 0 40px -60px;
-  padding: 20px 40px;
-  background: #932129; }
+.hero {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .hero h2 {
+    margin: -40px 0 40px -60px;
+    padding: 20px 40px;
+    background: #932129; }
 
 .intro-text {
   background: #4e2a1a;
