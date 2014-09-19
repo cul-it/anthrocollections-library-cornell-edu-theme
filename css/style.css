@@ -2072,6 +2072,7 @@ header {
 
 /* about */
 .main-content-about {
+  height: 65px;
   background: white url("../images/background/2-crop.jpg") no-repeat top left;
   background-position: center 0;
   -webkit-background-size: cover !important;
@@ -2081,6 +2082,7 @@ header {
 
 /* digitization */
 .main-content-digitization {
+  height: 65px;
   background: white url("../images/background/4-crop.jpg") no-repeat top left;
   background-position: center 0;
   -webkit-background-size: cover !important;
@@ -2090,6 +2092,7 @@ header {
 
 /* contact */
 .main-content-contact {
+  height: 65px;
   background: white url("../images/background/3-crop.jpg") no-repeat top left;
   background-position: center 0;
   -webkit-background-size: cover !important;
@@ -2099,6 +2102,7 @@ header {
 
 /* credits */
 .main-content-credits {
+  height: 65px;
   background: white url("../images/background/1-crop.jpg") no-repeat top left;
   background-position: center 0;
   -webkit-background-size: cover !important;
