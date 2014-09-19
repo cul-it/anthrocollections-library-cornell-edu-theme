@@ -117,7 +117,7 @@
 
 <section class="hero">
   <div class="container">
-    <div class="span10 offset1">
+    <div class="span8 offset2">
       <div class="intro-text">
         <?php print render($page['highlighted']); ?>
         <!--<?php print $breadcrumb; ?>-->
