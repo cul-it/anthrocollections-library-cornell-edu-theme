@@ -2254,6 +2254,10 @@ footer {
     .navbar .btn-navbar {
       margin-top: 10px;
       display: inline-block; }
+    .navbar .nav li.active a, .navbar .nav li.active a:hover,
+    .navbar .nav li.active-trail a,
+    .navbar .nav li.active-trail a:hover {
+      color: white; }
 
   footer .text-right {
     text-align: left; }
