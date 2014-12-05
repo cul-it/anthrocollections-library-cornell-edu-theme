@@ -232,31 +232,26 @@ ul.icons li [class*=" icon-"] {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
-
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
-
   100% {
     -o-transform: rotate(359deg); } }
 @-ms-keyframes spin {
   0% {
     -ms-transform: rotate(0deg); }
-
   100% {
     -ms-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
-
   100% {
     transform: rotate(359deg); } }
 @-moz-document url-prefix() {
@@ -1881,7 +1876,7 @@ body {
   font-size: 100%;
   font-family: "Open Sans";
   font-weight: 400;
-  color: #444444;
+  color: #444;
   background: #301a10;
   padding-top: 0; }
 
@@ -2268,6 +2263,13 @@ footer {
 
   .intro-text {
     margin: 20px 0;
-    padding: 25px 40px; } }
+    padding: 25px 40px; }
+
+  .pull-right,
+  .pull-left {
+    float: none;
+    text-align: center; } }
 .ie8 .navbar .brand .site-title {
   font-size: 1.5em; }
+
+/*# sourceMappingURL=style.css.map */

@@ -22,5 +22,10 @@
 		margin: 20px 0;
 		padding: 25px 40px;
 	}
+	.pull-right,
+	.pull-left {
+		float: none;
+		text-align: center;
+	}
 }
 
