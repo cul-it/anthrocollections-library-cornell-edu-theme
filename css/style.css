@@ -2268,7 +2268,7 @@ footer {
   .pull-right,
   .pull-left {
     float: none;
-    text-align: center; } }
+    margin: 0 20px; } }
 .ie8 .navbar .brand .site-title {
   font-size: 1.5em; }
 
