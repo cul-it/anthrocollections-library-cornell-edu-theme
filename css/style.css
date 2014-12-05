@@ -2265,8 +2265,8 @@ footer {
     margin: 20px 0;
     padding: 25px 40px; }
 
-  .pull-right,
-  .pull-left {
+  img.pull-right,
+  img.pull-left {
     float: none;
     margin: 0 20px; } }
 .ie8 .navbar .brand .site-title {
