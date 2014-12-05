@@ -2000,7 +2000,9 @@ p.pull-right {
     background: #cfcfcf;
     text-decoration: none; }
   .sidebar .nav li.active a,
-  .sidebar .nav li.active a:hover {
+  .sidebar .nav li.active a:hover,
+  .sidebar .nav li.active-trail a,
+  .sidebar .nav li.active-trail a:hover {
     color: white;
     background: #15594a; }
 

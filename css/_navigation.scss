@@ -63,7 +63,8 @@
 		a:hover { 
 			background: $lightGray;
 			text-decoration: none; }
-		li.active {
+		li.active,
+		li.active-trail {
 			a,
 			a:hover { 
 				color: white;
