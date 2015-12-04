@@ -20,7 +20,7 @@
 	color: white;
 	margin: 100px 0;
 	padding: 50px 80px;
-	font-size: 1.125em;
+	font-size: 18px;
 	line-height: 1.5em;
 	.primary-button {
 		margin-top: 20px;
@@ -102,15 +102,21 @@ footer {
 		margin: 0 0 1em;
 		li { 
 			display: inline-block;
-			font-size: .875em;
+			font-size: 14px;
 			border-left: 1px solid $footerText;
-			padding: 0 5px 0 10px; }
-		li:first-child { 
-			border-left: none;
-			padding-left: 0; }
+		}
 		li.active { 
 			color: white;
 			a { color: white; }
+		}
+		a {
+			padding: 0 5px 0 10px;
+		}
+		li:first-child { 
+			border-left: none;
+			a {
+				padding-left: 0;
+			}
 		}
 		a:hover {
 			background: inherit;
@@ -121,7 +127,7 @@ footer {
 		color: white; 
 		background: inherit;
 	}
-	p { font-size: .875em; }
+	p { font-size: 14px; }
 }
 
 

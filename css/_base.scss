@@ -1,5 +1,4 @@
 body {
-	font-size: 100%;
 	font-family: $baseFontFamily;
 	font-weight: 400;
 	color: $textColorDark;
@@ -22,10 +21,14 @@ a:active { color: $darkTeal; }
 /* Typography */
 /*------------------------------*/
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $baseFontFamily;
+}
+
 h2 {
 	margin: 0 0 1em;
 	font-weight: normal;
-	font-size: 2em;
+	// font-size: 2em;
 }
 .page-title {
 	h2 { margin-top: 100px; }
@@ -36,13 +39,13 @@ h3 {
 }
 h4 {
 	font-weight: normal;
-	font-size: 1.4em;
+	// font-size: 1.4em;
 	margin-bottom: .5em;
 }
 .main-content {
 	p, li { 
-		font-size: 1.125em;
-		line-height: 1.4em;
+		font-size: 16px;
+		line-height: 1.6em;
 	}
 	p {
 		margin-bottom: 1em;

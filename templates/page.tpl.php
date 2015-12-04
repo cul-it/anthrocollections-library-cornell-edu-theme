@@ -73,7 +73,7 @@
 <section class="cornell-identity">
   <div class="container">
     <div class="row">
-      <div class="span6">
+      <div class="col-sm-6">
         <div class="cu-logo">
           <img src="img/cul-logo-gray.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="span6 search-links hidden-phone">
+      <div class="col-sm-6 search-links hidden-xs">
         <ul>
           <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
           <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
@@ -96,17 +96,18 @@
 <header>
   <div class="container">
     <div class="navbar">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
       <div class="row">
-        <div class="span6">
+        <div class="col-sm-6">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="brand" href="<?php print $front_page; ?>">Selections from the <span class="site-title">Cornell Anthropology Collections</span></a>
         </div>
-        <div class="span6">
-          <div class="nav-collapse collapse">
+        <div class="col-sm-6">
+          <div id="navbar" class="collapse navbar-collapse">
             <?php print render($page['navigation']); ?>
           </div>
         </div>
@@ -115,68 +116,93 @@
   </div>
 </header>
 
-<?php if (!empty($section_title)): ?>
-  <section class="page-title page-title-<?php print $section_title; ?>">
-<?php else: ?>
-  <section class="page-title">
-<?php endif; ?>
+<?php if ($is_front): ?>
+  <section class="hero">
     <div class="container">
-      <?php if ($title): ?>
-        <h2><?php print $title; ?></h2>
-      <?php endif; ?>    
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="intro-text">
+          <?php print render($page['highlighted']); ?>
+          <!--<?php print $breadcrumb; ?>-->
+          <?php print $messages; ?>
+          <?php print render($tabs); ?>
+          <?php print render($page['help']); ?>
+          <?php if ($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+          <?php endif; ?>
+          <?php if(drupal_is_front_page()) {
+            unset($page['content']['system_main']['default_message']);
+          }?>
+          <?php print render($page['content']); ?>
+        </div>
+      </div>
     </div>
   </section>
+<?php endif; ?>
 
-<section class="main-content">
-  <div class="container">
-    <?php
-        // Render the sidebars to see if there's anything in them.
-        $sidebar  = render($page['sidebar']);
-    ?>
-
-    <!--if there is a sidebar, then create two column layout-->
-    <?php if ($sidebar): ?>
-
-    <div class="row">
-      <div class="span8">
-        <?php print render($page['highlighted']); ?>
-        <!--<?php print $breadcrumb; ?>-->
-        <?php print $messages; ?>
-        <?php print render($tabs); ?>
-        <?php print render($page['help']); ?>
-        <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
-        <!--<?php if(drupal_is_front_page()) {
-          unset($page['content']['system_main']['default_message']);
-        }?>-->
-        <?php print render($page['content']); ?>
+<?php if (!$is_front): ?>
+  <?php if (!empty($section_title)): ?>
+    <section class="page-title page-title-<?php print $section_title; ?>">
+  <?php else: ?>
+    <section class="page-title">
+  <?php endif; ?>
+      <div class="container">
+        <?php if ($title): ?>
+          <h2><?php print $title; ?></h2>
+        <?php endif; ?>    
       </div>
-      <div class="span4 sidebar">
-        <?php print $sidebar; ?>
-      </div>
+    </section>
 
-      <!--if there isn't a sidebar, then create one column layout-->
-      <?php else :?>
+  <section class="main-content">
+    <div class="container">
+      <?php
+          // Render the sidebars to see if there's anything in them.
+          $sidebar  = render($page['sidebar']);
+      ?>
 
-        <?php print render($page['highlighted']); ?>
-        <!--<?php print $breadcrumb; ?>-->
-        <?php print $messages; ?>
-        <?php print render($tabs); ?>
-        <?php print render($page['help']); ?>
-        <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
+      <!--if there is a sidebar, then create two column layout-->
+      <?php if ($sidebar): ?>
+
+      <div class="row">
+        <div class="col-sm-8">
+          <?php print render($page['highlighted']); ?>
+          <!--<?php print $breadcrumb; ?>-->
+          <?php print $messages; ?>
+          <?php print render($tabs); ?>
+          <?php print render($page['help']); ?>
+          <?php if ($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+          <?php endif; ?>
+          <!--<?php if(drupal_is_front_page()) {
+            unset($page['content']['system_main']['default_message']);
+          }?>-->
+          <?php print render($page['content']); ?>
+        </div>
+        <div class="col-sm-4 sidebar">
+          <?php print $sidebar; ?>
+        </div>
+
+        <!--if there isn't a sidebar, then create one column layout-->
+        <?php else :?>
+
+          <?php print render($page['highlighted']); ?>
+          <!--<?php print $breadcrumb; ?>-->
+          <?php print $messages; ?>
+          <?php print render($tabs); ?>
+          <?php print render($page['help']); ?>
+          <?php if ($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+          <?php endif; ?>
+          <!--<?php if(drupal_is_front_page()) {
+            unset($page['content']['system_main']['default_message']);
+          }?>-->
+          <?php print render($page['content']); ?>
+
         <?php endif; ?>
-        <!--<?php if(drupal_is_front_page()) {
-          unset($page['content']['system_main']['default_message']);
-        }?>-->
-        <?php print render($page['content']); ?>
 
-      <?php endif; ?>
-
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+<?php endif; ?>
 
 <footer>
   <div class="container">
@@ -185,3 +211,12 @@
 </footer>
 
 <?php print render($page['bottom']); ?>
+
+<?php if ($is_front): ?>
+  <script type="text/javascript">
+    jQuery(document).ready(function() { 
+    var randomImages = ['1','2','3','4']; 
+    var rndNum = Math.floor(Math.random() * randomImages.length); 
+    jQuery(".hero").css({ background: "url('/sites/all/themes/bootstrap_anthro/images/background/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  </script>
+<?php endif; ?>

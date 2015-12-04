@@ -2,32 +2,26 @@
 /*----------------------------------*/
 
 .navbar {
-	padding: 20px 0;
-	margin-bottom: 0;
-	.container { width: 1170px; } // bootstrap override to set fixed width
+	margin: 20px 0;
 	.brand {
 		float: none;
-		font-size: 1.125em;
+		font-size: 18px;
 		color: $red;
-		margin-bottom: 5px;
-		font-weight: 400;
-		text-shadow: 0;
+		line-height: 1.5em;
 		.site-title {
-			font-size: 1.875em;
+			font-size: 20px;
 			display: block;
-			margin-top: .25em;
 		}
 	}
 	.nav {
-		float: right;
-		margin-top: 35px;
+		margin-top: 25px;
 		li {
 			a {
 				text-shadow: 0 0 0;
 				color: $mainNavColor; 
-				font-size: 1em;
+				font-size: 16px;
 				padding: 5px 10px;
-				border-left: 1px solid $lightGray; }
+			}
 			a:hover { 
 				color: $red; }
 		}
@@ -47,9 +41,19 @@
 	}
 }
 
+// Mobile nav button
+// ---------------------
+.navbar-toggle {
+	background: $teal;
+	margin: 8px 0 0 0;
+	.icon-bar {
+		background: white;
+	}
+}
 
-/* Sidebar navigation */
-/*------------------------------*/
+
+// Sidebar navigation 
+//------------------------------
 .sidebar {
 	.nav {
 		list-style: none;
@@ -84,3 +88,71 @@
 .nav-header:hover { 
 	color: $teal;
 	text-decoration: none; }
+
+
+// MEDIA QUERIES
+// -------------------------
+
+  // /* Extra small devices (phones, up to 480px) */
+  // /* No media query since this is the default in Bootstrap */
+
+  // /* Small devices (tablets, 768px and up) */
+  // @media (min-width: @screen-sm) { ... }
+
+  // /* Medium devices (desktops, 992px and up) */
+  // @media (min-width: @screen-md) { ... }
+
+  // /* Large devices (large desktops, 1200px and up) */
+  // @media (min-width: @screen-lg) { ... }
+
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.navbar {
+		.nav {
+			float: right;
+			li {
+				float: left;
+				a {
+					border-left: 1px solid $lightGray;
+					font-size: 12px;
+				}
+			}
+		}
+		.brand {
+			.site-title {
+				font-size: 22px;
+			}
+		}
+	}
+}
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.navbar {
+		.brand {
+			.site-title {
+				font-size: 28px;
+			}
+		}
+		.nav {
+			li {
+				a {
+					font-size: 14px;
+				}
+			}	
+		}
+	}
+}
+// Large devices (desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.navbar {
+		.nav {
+			li {
+				a {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
